@@ -1,0 +1,1127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AB78DA9F-7183-329A-9239-DBF62D44CD24}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>DataTarget</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sandy\Desktop\school\Platformer920\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sandy\Desktop\school\Platformer920\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sandy\Desktop\school\Platformer920\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sandy\Desktop\school\Platformer920\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\0543eb99e627c982e0fa8bf03a30a4a8\background.jpg.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/background.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/background.jpg C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/background.jpg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\background.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\background.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/background.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/background.jpg C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/background.jpg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\background.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\background.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/background.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/background.jpg C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/background.jpg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\background.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\background.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/background.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/background.jpg C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/background.jpg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\background.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\background.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\f5b086b82b33a2a10b6297b75632070f\platform.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/platfrom/platform.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/platfrom/platform.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/platfrom/platform.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\platfrom\platform.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\platfrom\platform.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/platfrom/platform.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/platfrom/platform.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/platfrom/platform.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\platfrom\platform.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\platfrom\platform.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/platfrom/platform.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/platfrom/platform.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/platfrom/platform.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\platfrom\platform.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\platfrom\platform.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/platfrom/platform.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/platfrom/platform.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/platfrom/platform.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\platfrom\platform.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\platfrom\platform.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\4b784c7f9243d31fc5cd4736895e0bf3\idle.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/prinny/idle/idle.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/idle/idle.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/idle/idle.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\idle\idle.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\idle\idle.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/prinny/idle/idle.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/idle/idle.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/idle/idle.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\idle\idle.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\idle\idle.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/prinny/idle/idle.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/idle/idle.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/idle/idle.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\idle\idle.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\idle\idle.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/prinny/idle/idle.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/idle/idle.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/idle/idle.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\idle\idle.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\idle\idle.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\38634e4592ebe76e6b42669bb1990c62\jump1.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/prinny/jump/jump1.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump1.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump1.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump1.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump1.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/prinny/jump/jump1.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump1.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump1.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump1.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump1.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/prinny/jump/jump1.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump1.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump1.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump1.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump1.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/prinny/jump/jump1.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump1.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump1.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump1.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump1.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\38634e4592ebe76e6b42669bb1990c62\jump2.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/prinny/jump/jump2.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump2.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump2.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump2.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump2.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/prinny/jump/jump2.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump2.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump2.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump2.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump2.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/prinny/jump/jump2.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump2.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump2.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump2.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump2.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/prinny/jump/jump2.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump2.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump2.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump2.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump2.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\38634e4592ebe76e6b42669bb1990c62\jump3.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/prinny/jump/jump3.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump3.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump3.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump3.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump3.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/prinny/jump/jump3.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump3.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump3.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump3.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump3.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/prinny/jump/jump3.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump3.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump3.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump3.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump3.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/prinny/jump/jump3.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump3.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump3.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump3.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump3.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\38634e4592ebe76e6b42669bb1990c62\jump4.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/prinny/jump/jump4.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump4.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump4.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump4.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump4.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/prinny/jump/jump4.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump4.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump4.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump4.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump4.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/prinny/jump/jump4.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump4.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump4.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump4.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump4.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/prinny/jump/jump4.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump4.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump4.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump4.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump4.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\38634e4592ebe76e6b42669bb1990c62\jump5.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/prinny/jump/jump5.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump5.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump5.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump5.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump5.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/prinny/jump/jump5.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump5.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump5.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump5.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump5.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/prinny/jump/jump5.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump5.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump5.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump5.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump5.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/prinny/jump/jump5.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump5.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump5.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump5.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump5.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\38634e4592ebe76e6b42669bb1990c62\jump6.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/prinny/jump/jump6.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump6.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump6.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump6.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump6.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/prinny/jump/jump6.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump6.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump6.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump6.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump6.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/prinny/jump/jump6.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump6.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump6.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump6.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump6.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/prinny/jump/jump6.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump6.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump6.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump6.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump6.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\d607a1b6bfd9097b33dab60deab0089d\run1.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/prinny/move/run1.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run1.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run1.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run1.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run1.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/prinny/move/run1.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run1.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run1.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run1.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run1.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/prinny/move/run1.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run1.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run1.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run1.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run1.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/prinny/move/run1.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run1.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run1.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run1.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run1.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\d607a1b6bfd9097b33dab60deab0089d\run2.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/prinny/move/run2.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run2.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run2.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run2.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run2.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/prinny/move/run2.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run2.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run2.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run2.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run2.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/prinny/move/run2.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run2.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run2.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run2.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run2.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/prinny/move/run2.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run2.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run2.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run2.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run2.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\d607a1b6bfd9097b33dab60deab0089d\run3.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/prinny/move/run3.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run3.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run3.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run3.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run3.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/prinny/move/run3.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run3.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run3.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run3.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run3.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/prinny/move/run3.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run3.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run3.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run3.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run3.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/prinny/move/run3.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run3.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run3.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run3.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run3.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\d607a1b6bfd9097b33dab60deab0089d\run4.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/prinny/move/run4.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run4.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run4.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run4.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run4.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/prinny/move/run4.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run4.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run4.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run4.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run4.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/prinny/move/run4.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run4.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run4.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run4.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run4.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/prinny/move/run4.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run4.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run4.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run4.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run4.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\d607a1b6bfd9097b33dab60deab0089d\run5.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/prinny/move/run5.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run5.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run5.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run5.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run5.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/prinny/move/run5.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run5.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run5.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run5.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run5.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/prinny/move/run5.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run5.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run5.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run5.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run5.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/prinny/move/run5.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run5.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run5.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run5.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run5.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\d607a1b6bfd9097b33dab60deab0089d\run6.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/prinny/move/run6.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run6.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run6.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run6.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run6.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/prinny/move/run6.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run6.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run6.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run6.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run6.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/prinny/move/run6.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run6.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run6.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run6.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run6.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/prinny/move/run6.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run6.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run6.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run6.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run6.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\0543eb99e627c982e0fa8bf03a30a4a8\wall.jpg.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating data/sprites/wall.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/wall.jpg C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/wall.jpg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\wall.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\wall.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating data/sprites/wall.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/wall.jpg C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/wall.jpg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\wall.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\wall.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating data/sprites/wall.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/wall.jpg C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/wall.jpg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\wall.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\wall.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating data/sprites/wall.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/wall.jpg C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/wall.jpg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\wall.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\wall.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\5f25a7c025361f44c3d725fad3fc8c95\DataTarget.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\background.jpg;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\platfrom\platform.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\idle\idle.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump1.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump2.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump3.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump4.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump5.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump6.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run1.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run2.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run3.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run4.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run5.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run6.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\wall.jpg;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\background.jpg;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\platfrom\platform.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\idle\idle.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump1.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump2.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump3.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump4.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump5.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump6.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run1.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run2.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run3.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run4.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run5.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run6.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\wall.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\DataTarget</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\background.jpg;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\platfrom\platform.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\idle\idle.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump1.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump2.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump3.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump4.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump5.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump6.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run1.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run2.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run3.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run4.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run5.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run6.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\wall.jpg;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\background.jpg;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\platfrom\platform.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\idle\idle.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump1.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump2.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump3.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump4.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump5.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump6.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run1.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run2.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run3.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run4.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run5.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run6.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\wall.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\DataTarget</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\background.jpg;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\platfrom\platform.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\idle\idle.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump1.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump2.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump3.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump4.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump5.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump6.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run1.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run2.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run3.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run4.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run5.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run6.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\wall.jpg;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\background.jpg;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\platfrom\platform.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\idle\idle.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump1.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump2.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump3.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump4.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump5.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump6.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run1.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run2.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run3.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run4.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run5.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run6.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\wall.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\DataTarget</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\background.jpg;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\platfrom\platform.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\idle\idle.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump1.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump2.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump3.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump4.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump5.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\jump\jump6.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run1.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run2.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run3.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run4.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run5.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\prinny\move\run6.png;C:\Users\Sandy\Desktop\school\Platformer920\build\data\sprites\wall.jpg;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\background.jpg;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\platfrom\platform.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\idle\idle.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump1.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump2.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump3.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump4.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump5.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\jump\jump6.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run1.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run2.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run3.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run4.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run5.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\prinny\move\run6.png;C:\Users\Sandy\Desktop\school\Platformer920\data\sprites\wall.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\DataTarget</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sandy\Desktop\school\Platformer920\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Sandy/Desktop/school/Platformer920/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Sandy/Desktop/school/Platformer920 -BC:/Users/Sandy/Desktop/school/Platformer920/build --check-stamp-file C:/Users/Sandy/Desktop/school/Platformer920/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeSystem.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLConfig.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLConfigDependencies.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLConfigVersion.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-debug.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-release.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\unofficial-box2d\unofficial-box2d-config-debug.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\unofficial-box2d\unofficial-box2d-config-release.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\unofficial-box2d\unofficial-box2d-config.cmake;C:\Users\Sandy\Desktop\school\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Sandy/Desktop/school/Platformer920/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Sandy/Desktop/school/Platformer920 -BC:/Users/Sandy/Desktop/school/Platformer920/build --check-stamp-file C:/Users/Sandy/Desktop/school/Platformer920/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeSystem.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLConfig.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLConfigDependencies.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLConfigVersion.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-debug.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-release.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\unofficial-box2d\unofficial-box2d-config-debug.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\unofficial-box2d\unofficial-box2d-config-release.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\unofficial-box2d\unofficial-box2d-config.cmake;C:\Users\Sandy\Desktop\school\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Sandy/Desktop/school/Platformer920/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Sandy/Desktop/school/Platformer920 -BC:/Users/Sandy/Desktop/school/Platformer920/build --check-stamp-file C:/Users/Sandy/Desktop/school/Platformer920/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeSystem.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLConfig.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLConfigDependencies.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLConfigVersion.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-debug.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-release.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\unofficial-box2d\unofficial-box2d-config-debug.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\unofficial-box2d\unofficial-box2d-config-release.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\unofficial-box2d\unofficial-box2d-config.cmake;C:\Users\Sandy\Desktop\school\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Sandy/Desktop/school/Platformer920/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Sandy/Desktop/school/Platformer920 -BC:/Users/Sandy/Desktop/school/Platformer920/build --check-stamp-file C:/Users/Sandy/Desktop/school/Platformer920/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\3.18.2\CMakeSystem.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLConfig.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLConfigDependencies.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLConfigVersion.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-debug.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-release.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\unofficial-box2d\unofficial-box2d-config-debug.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\unofficial-box2d\unofficial-box2d-config-release.cmake;C:\Users\Sandy\Desktop\school\vcpkg\installed\x64-windows\share\unofficial-box2d\unofficial-box2d-config.cmake;C:\Users\Sandy\Desktop\school\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Sandy\Desktop\school\Platformer920\build\CMakeFiles\DataTarget">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Sandy\Desktop\school\Platformer920\build\ZERO_CHECK.vcxproj">
+      <Project>{EA9690A5-C92C-30EE-8C43-0E8D6B62A6E7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,4 @@
+C:/Users/Sandy/Desktop/school/Platformer920/build/CMakeFiles/DataTarget.dir
+C:/Users/Sandy/Desktop/school/Platformer920/build/CMakeFiles/Platformer.dir
+C:/Users/Sandy/Desktop/school/Platformer920/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Sandy/Desktop/school/Platformer920/build/CMakeFiles/ZERO_CHECK.dir

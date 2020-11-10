@@ -1,0 +1,3 @@
+﻿  Platformer.vcxproj -> C:\Users\Sandy\Desktop\school\Platformer920\build\Debug\Platformer.exe
+  Platformer.vcxproj -> C:\Users\Sandy\Desktop\school\Platformer920\build\Debug\Platformer.pdb (PDB partiel -> complet)
+C:\Users\Sandy\Desktop\school\Platformer920\build\Debug\Platformer.pdb : fatal error CMF1107: le fichier PDB d'entrΘe n'est pas gΘnΘrΘ par /DEBUG:fastlink

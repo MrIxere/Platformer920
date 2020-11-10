@@ -1,0 +1,178 @@
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\0543EB99E627C982E0FA8BF03A30A4A8\BACKGROUND.JPG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/background.jpg C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/background.jpg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\F5B086B82B33A2A10B6297B75632070F\PLATFORM.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/platfrom/platform.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/platfrom/platform.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\4B784C7F9243D31FC5CD4736895E0BF3\IDLE.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/idle/idle.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/idle/idle.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\38634E4592EBE76E6B42669BB1990C62\JUMP1.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump1.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump1.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\38634E4592EBE76E6B42669BB1990C62\JUMP2.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump2.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump2.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\38634E4592EBE76E6B42669BB1990C62\JUMP3.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump3.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump3.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\38634E4592EBE76E6B42669BB1990C62\JUMP4.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump4.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump4.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\38634E4592EBE76E6B42669BB1990C62\JUMP5.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump5.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump5.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\38634E4592EBE76E6B42669BB1990C62\JUMP6.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/jump/jump6.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/jump/jump6.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\D607A1B6BFD9097B33DAB60DEAB0089D\RUN1.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run1.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run1.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\D607A1B6BFD9097B33DAB60DEAB0089D\RUN2.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run2.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run2.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\D607A1B6BFD9097B33DAB60DEAB0089D\RUN3.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run3.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run3.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\D607A1B6BFD9097B33DAB60DEAB0089D\RUN4.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run4.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run4.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\D607A1B6BFD9097B33DAB60DEAB0089D\RUN5.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run5.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run5.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\D607A1B6BFD9097B33DAB60DEAB0089D\RUN6.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/prinny/move/run6.png C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/prinny/move/run6.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\0543EB99E627C982E0FA8BF03A30A4A8\WALL.JPG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Sandy/Desktop/school/Platformer920/data/sprites/wall.jpg C:/Users/Sandy/Desktop/school/Platformer920/build/data/sprites/wall.jpg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\BUILD\CMAKEFILES\5F25A7C025361F44C3D725FAD3FC8C95\DATATARGET.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SANDY\DESKTOP\SCHOOL\PLATFORMER920\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Sandy/Desktop/school/Platformer920 -BC:/Users/Sandy/Desktop/school/Platformer920/build --check-stamp-file C:/Users/Sandy/Desktop/school/Platformer920/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

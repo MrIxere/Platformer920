@@ -22,6 +22,7 @@ public:
 private:
     const float fixedTimeStep_ = 0.02f;
     float fixedTimer_ = 0.0f;
+    const float scale_ = 3.0f;
 
     sf::RenderWindow window_;
     sf::Texture wall_;

@@ -15,7 +15,8 @@ void Game::Init()
         std::cerr << "Didn't load texture\n";
     }
     sprite_.setTexture(wall_);
-    sprite_.setOrigin(wall_.getSize().x / 2.0f, wall_.getSize().y / 2.0f);
+    sprite_.setOrigin(wall_.getSize().x * 1.0f, wall_.getSize().y * 1.0f);
+    sprite_.setScale(scale_ * 1, scale_ * 1);
     player_.Init();
     platform_.Init();
 }
